@@ -90,6 +90,35 @@ header nav ul li {
     border-radius: 15px;
 }
 
+.video-slider {
+    list-style: none; /* ul의 기본 불릿 포인트 제거 */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.video-slider li {
+    display: none; /* 처음에 모든 슬라이드는 숨김 */
+    text-align: center;
+}
+
+#prev,
+#next {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #f9a825;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#prev:hover,
+#next:hover {
+    background-color: #f57c00;
+}
+
 /* Product Slider */
 .product-slider {
     background-color: #fbe870;
